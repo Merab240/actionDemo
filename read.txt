@@ -1,1 +1,13 @@
-hello
+name: my workflow #workflow name
+on:             #events that triger this workflow(s)
+   push:
+        branch: [main, develop]
+
+jobs:            #one or more jobs
+     my-jobs:     #jobid or job name
+        runs-on: ubuntu-latest     # runner OS
+        steps:    # sequencial steps
+           -name: checkout code 
+              users: actions/checkout@v4      #reusable actions
+            -name: say hello
+              run: echo "hello world"   #shell command
