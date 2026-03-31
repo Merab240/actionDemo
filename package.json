@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "jest": "^30.3.0"
+  },
+  "name": "actiondemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merab240/actionDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merab240/actionDemo/issues"
+  },
+  "homepage": "https://github.com/Merab240/actionDemo#readme"
+}
